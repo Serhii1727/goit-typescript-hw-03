@@ -16,7 +16,7 @@
 
 class Employee {
   constructor(
-    readonly name: string,
+    public name: string,
     private department: string,
     protected salary: number
   ) {
